@@ -1,0 +1,24 @@
+{
+  "name": "sublimedatasystemtask",
+  "version": "1.0.0",
+  "description": "this is a Simple nodejs app that accept and return the customer data from postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "PostgreSQL",
+    "ExpressJs"
+  ],
+  "author": "akshayprajapati",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "joi": "^17.12.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3"
+  }
+}
